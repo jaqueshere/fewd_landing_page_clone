@@ -1,0 +1,48 @@
+
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+.top-navigation {
+	background-color:#fff;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+
+}
+
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+
+.links {
+	float: right;
+}
+
+.links > li {
+	display: inline-block;
+	
+	border: 3px solid;
+	font-family: 'Roboto', "Helvetica Neue", sans-serif;
+}
+
+/*#paperclip {
+	height: 3em;
+	padding:0.5em;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: top;
+}*/
+
+a: link{
+	color: gray;
+}
+
+.active {
+	color: dark-gray;
+}
