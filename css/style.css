@@ -1,10 +1,14 @@
-
 body {
 	background-color: LightGray;
 }
 
 div {
 	border: 1px solid Chocolate;
+}
+
+.content {
+	/*Remove 2em to account for padding */
+	width: 58rem;
 }
 
 .top-navigation {
@@ -15,8 +19,8 @@ div {
 }
 
 .top-navigation > .content {
-	width: 60rem;
 	height: 4.375rem;
+	padding: 0px 15px;
 	margin: 0 auto;
 }
 
@@ -26,18 +30,12 @@ div {
 
 .links > li {
 	display: inline-block;
-	
 	border: 3px solid;
 	font-family: 'Roboto', "Helvetica Neue", sans-serif;
+	font-size: 1em;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
-
-/*#paperclip {
-	height: 3em;
-	padding:0.5em;
-	margin-right: auto;
-	margin-left: auto;
-	vertical-align: top;
-}*/
 
 a: link{
 	color: gray;
