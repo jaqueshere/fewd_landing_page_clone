@@ -1,46 +1,83 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: inherit;
+}
+
 body {
 	background-color: LightGray;
 }
 
 div {
-	border: 1px solid Chocolate;
+	border: 1px solid #fff;
 }
 
 .content {
-	/*Remove 2em to account for padding */
-	width: 58rem;
+	
+
 }
 
 .top-navigation {
 	background-color:#fff;
 	width: 100%;
-	border-bottom: 1px solid #ddd;
-
+	/*border-bottom: 1px solid #ddd;*/
+	margin: 0;
 }
 
 .top-navigation > .content {
 	height: 4.375rem;
 	padding: 0px 15px;
 	margin: 0 auto;
+	width: 60rem;
 }
 
 .links {
 	float: right;
+	padding-top:0;
+	padding-bottom:0;
+	margin: 25px 0 25px 0;
 }
 
 .links > li {
 	display: inline-block;
-	border: 3px solid;
+	border: 0px solid;
 	font-family: 'Roboto', "Helvetica Neue", sans-serif;
 	font-size: 1em;
+	font-weight: 500;
 	color: #838994;
+	transition: color 0.25s linear;
 	letter-spacing: 0.03em;
+	margin: 0 0.5em 0 0.5em;
 }
 
-a: link{
-	color: gray;
+.links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
 
-.active {
-	color: dark-gray;
+.active:hover {
+
+}
+
+li:hover {
+	color: #333333;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#paperclip {
+	float: left;
+	margin-left: 14px;
+}
+
+#hook {
+	background-image: url("../images/first-background-copy.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:45.938rem;
 }
