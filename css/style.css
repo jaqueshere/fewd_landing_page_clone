@@ -24,6 +24,8 @@ div {
 	/*border-bottom: 1px solid #ddd;*/
 	margin: 0;
 	padding: 0;
+	position: fixed;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -62,7 +64,7 @@ div {
 
 }
 
-li:hover {
+.links > li:hover {
 	color: #333333;
 	font-weight: 500;
 	cursor: pointer;
@@ -144,7 +146,9 @@ h3 {
 }
 
 #benefits > .content{
-	/*position: absolute;*/
+	padding-top: 5rem;
+	width:60rem;
+	text-align: center;
 }
 
 .cartoons {
@@ -155,5 +159,19 @@ h3 {
 
 .cartoons > li {
 	display: inline-block;
-	margin: 0 0.5em 0 0.5em;
+	margin: 0 2.5rem 0 2.5rem;
+}
+
+#benefits > .content > h2 {
+	font-size: 2.75rem;
+	color: #494c55;
+	margin:1.625rem 0px 3.125rem 0px;
+	font-weight: 300;
+}
+
+.caption > h3 {
+	font-weight:400;
+	color: #4c5058;
+	font-size:1.563rem;
+	margin: 2.5rem 0px 1.875rem 0px;
 }
