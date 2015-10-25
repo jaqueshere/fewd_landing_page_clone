@@ -23,6 +23,7 @@ div {
 	width: 100%;
 	/*border-bottom: 1px solid #ddd;*/
 	margin: 0;
+	padding: 0;
 }
 
 .top-navigation > .content {
@@ -80,14 +81,13 @@ li:hover {
 	background-repeat: no-repeat;
 	height:45.938rem;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	margin: 0;
+	padding:1px;
 }
 
 #hook > .content {
-	/*position: absolute;*/
-	/*margin 0 auto doesn't work with position absolute*/
 	top: 5rem;
 	height: 11rem;
 	width: 32rem;
@@ -132,4 +132,28 @@ h3 {
 
 .big-button:hover {
 	background-color: #f15a2c;
+}
+
+#benefits {
+	background-color: #fff;
+	min-height: 46rem;
+	width:100%;
+	margin: 0;
+	display:block;
+	padding: 1px;
+}
+
+#benefits > .content{
+	/*position: absolute;*/
+}
+
+.cartoons {
+	padding-top:0;
+	padding-bottom:0;
+	margin: 25px 0 25px 0;
+}
+
+.cartoons > li {
+	display: inline-block;
+	margin: 0 0.5em 0 0.5em;
 }
